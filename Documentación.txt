@@ -1,0 +1,12 @@
+Nombre del equipo: Leicester city
+
+Caracteristicas:
+	-Descripción del equipo
+	-Mostrar Jugadores(por posiciones)
+	-Información de cada jugador
+	-Estadística del torneo
+	-Video del último partido jugado
+
+Funciones del sitio web:
+	-Registrar Jugadores(max. 12 jugadores)
+	-Donación al equipo
