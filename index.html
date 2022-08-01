@@ -24,15 +24,13 @@
         </div>
     </header>
 
-    <section class="titulo">
-        <h1>Leicester</h1>
+    <section class="hero">
+        <div class="contenido-hero">
+            <h1>Leicester City</h1>
 
-        <p>Comitán, Chiapas</p>
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="72" height="72" viewBox="0 0 24 24" stroke-width="2" stroke="#ffec00" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-            <circle cx="12" cy="11" r="3" />
-            <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
-        </svg>
+            <img src="/img/leicester-city-logo.svg" alt="logo">
+            <p>Comitán, Chiapas</p>
+        </div>
         <div class="autor">
             Foto de <a href="https://unsplash.com/@zelladun?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Fachry Zella Devandra</a>
         </div>
@@ -40,10 +38,10 @@
     </section>
 
     <main>
-        <h2>Jugadores</h2>
+       <h2>Jugadores</h2>
 
-        <div>
-            <nav>
+          <div class="pocision">
+            <nav class="contenido-posicion">
                 <a href="#">Delanteros</a>
                 <a href="#">Medios</a>
                 <a href="#">Defendas</a>
@@ -51,23 +49,40 @@
             </nav>
         </div>
 
-        <div>
-            <h3>Judador Destacado</h3>
-            <img src="/img/hombre.png" alt="Jugador Destacado">
-            <blockquote>Mario Tomas</blockquote>
-            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+        <div class="contenedor contenedor-desc">
+            <div class="j-destacado">
+                <h3>Judador Destacado</h3>
+                <img src="/img/hombre.png" alt="Jugador Destacado">
+            </div>
+
+            <table class="tabla">
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Edad</th>
+                        <th>Posición</th>
+                        <th>Número</th>
+                    </tr>
+                </thead>
+                <tr>
+                    <td>Mario Tomas</td>
+                    <td>22</td>
+                    <td>Defensa</td>
+                    <td>2</td>
+                </tr>
+            </table>
+            
         </div>
-        
-        <div>
+       <!-- <div>
             <h3>Uniforme del Equipo</h3>
             <img src="/img/jugador.png" alt="Nombre del uniforme del Equipo">
             <blockquote>Manchester City</blockquote>
             <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
-        </div>
+        </div> -->
     </main>
 
     <section>
-        <h2>Estadística</h2>
+        <!-- <h2>Estadística</h2>
 
         <img src="/img/gestion-de-equipos.png" alt="Nombre del equipo">
         <p>Nombre del equipo</p>
@@ -76,7 +91,7 @@
         <img src="/img/gestion-de-equipos.png" alt="Nombre del equipo">
         <p>Nombre del equipo</p>
         <p>0</p>
-        <a href="#">Ver Partido</a>
+        <a href="#">Ver Partido</a> -->
     </section>
 
     <section id="donar">
