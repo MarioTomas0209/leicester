@@ -8,9 +8,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="preload" href="css/normalize.css" as="styele">
+    <!-- <link rel="preload" href="css/normalize.css" as="styele"> -->
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="preload" href="css/estilos.css" as="style">
+    <!-- <link rel="preload" href="css/estilos.css" as="style"> -->
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
@@ -37,21 +37,22 @@
   
     </section>
 
-    <main>
+    <main class="sombra contenedor">
        <h2>Jugadores</h2>
 
-          <div class="pocision">
-            <nav class="contenido-posicion">
-                <a href="#">Delanteros</a>
-                <a href="#">Medios</a>
-                <a href="#">Defendas</a>
-                <a href="#">Porteros</a>
-            </nav>
-        </div>
+            <div class="pocision">
+                <nav class="boton">
+                    <a href="#" class="w-100">Delanteros</a>
+                    <a class="w-100" href="#">Medios</a>
+                    <a class="w-100" href="#">Defendas</a>
+                    <a class="w-100" href="#">Porteros</a>
+                </nav>
+            </div>
 
-        <div class="contenedor contenedor-desc">
+            <h2>Judador Destacado</h2>
+        <div class="contenedor-dest">
+
             <div class="j-destacado">
-                <h3>Judador Destacado</h3>
                 <img src="/img/hombre.png" alt="Jugador Destacado">
             </div>
 
@@ -73,41 +74,51 @@
             </table>
             
         </div>
-       <!-- <div>
-            <h3>Uniforme del Equipo</h3>
-            <img src="/img/jugador.png" alt="Nombre del uniforme del Equipo">
-            <blockquote>Manchester City</blockquote>
-            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
-        </div> -->
+
+        <div class="donar" id="donar">
+            <h2>Donación</h2>
+    
+            <p>Porfavor ayudanos somos pobres jajajaja</p>
+            <nav class="boton"><a class="w-100"  href="#">Donar</a></nav>
+        </div>
+
     </main>
 
-    <section>
-        <!-- <h2>Estadística</h2>
+    <footer class="footer">
+            <h2 id="contacto">Contacto</h2>
+            <form class="formulario">
+                <fieldset>
+                    <legend>Mandanos un Mensaje</legend>
 
-        <img src="/img/gestion-de-equipos.png" alt="Nombre del equipo">
-        <p>Nombre del equipo</p>
-        <p>0</p>
-        
-        <img src="/img/gestion-de-equipos.png" alt="Nombre del equipo">
-        <p>Nombre del equipo</p>
-        <p>0</p>
-        <a href="#">Ver Partido</a> -->
-    </section>
+                    <div class="contenedor-campo">
+                        <div class="campo">
+                            <label for="">Nombre</label>
+                            <input class="input-text" type="text" name="" placeholder="Tu nombre">
+                        </div>
+                        <div class="campo">
+                            <label for="">Telefono</label>
+                            <input class="input-text" type="tel" name="" placeholder="Tu teléfono">
+                        </div>
+                        <div class="campo">
+                            <label for="">Email</label>
+                            <input class="input-text" type="email" name="" placeholder="Tu email">
+                        </div>
+                        <div class="campo">
+                            <label for="">Mensaje</label>
+                            <textarea class="input-text" name="" placeholder="Mensaje..."></textarea>
+                        </div>
+                    </div>
+                    <div class="flex mov-der">
+                        <input class="w-100 btn-enviar" type="submit" value="Enviar">
+                    </div>
+                    
+                </fieldset>
+            </form>
 
-    <section id="donar">
-        <h2>Donación</h2>
-
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias vel laborum exercitationem non. Quaerat delectus rem voluptates ipsa laborum illo maxime eos, ratione natus sunt, facilis iusto sint unde labore.</p>
-        <a href="#">Donar</a>
-    </section>
-
-    <section id="contacto">
-        <h2>Contacto</h2>
-    </section>
-
-    <footer>
-        <p>Todos los derechos reservados, Mario Tomas.</p>
-        <a href="#">Facebook</a>
+        <div class="copy">
+            <p>Todos los derechos reservados, Mario Tomas.</p>
+            <a href="#">Facebook</a>
+        </div>
     </footer>
 
 </body>
